@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/create.css">
+</head>
+<body>
+    <h2>Criar Nova Pessoa</h2>
+
+    <form action="" id="create-form">
+
+        <label for="firstName">Primeiro Nome:</label>
+        <input type="text" id="firstName" required>
+
+        <label for="midleName">Segundo Nome:</label>
+        <input type="text" id="middleName">
+        
+        <label for="lastName">Último Nome:</label>
+        <input type="text" id="lastName" required>
+
+        <label for="CPF">CPF: </label>
+        <input type="text" id="cpf" required>
+
+        <button type="button" onclick="createPessoa()" onkeypress="">Salvar</button>
+    </form>
+
+    <script src="../js/create.js"></script>
+</body>
+</html>
